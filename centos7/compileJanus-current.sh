@@ -125,7 +125,7 @@ cmake -DLWS_MAX_SMP=1 \
 make && make install
 
 
-# ffmepg
+# ffmpeg
 
 cd $TARGET_DIR
 git clone --branch=${FFMPEG_TAG} ${FFMPEG_GIT} ./${FFMPEG_PKG}
